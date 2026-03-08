@@ -1,9 +1,7 @@
 # UVS Test readme
-
-Dear reviewer,
-
 ## Intro
 
+Dear reviewer,
 I know that testability is crucial for applications and also important for this assignment.
 Considering this is a test assignment and that this application will never ever go to production I did not do tests as I spent much more time I expected for application which will be viewed once and never again. The sad part - time was not spent on development, but on trying to get docker running on my local machine..
 
@@ -25,6 +23,7 @@ Moreover, I understand that this application is way far from being perfect, so I
 
 1. Build solution
 2. Run UVS.Console
+
 
 
 

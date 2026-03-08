@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.5.0" />
+
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="6.0.1" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="6.0.8" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.36" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\UVSDomain\UVS.Domain\UVS.Domain.csproj" />
+    <ProjectReference Include="..\..\UVSInfraData\UVS.Infra.Data\UVS.Infra.Data.csproj" />
+    <ProjectReference Include="..\..\UVSApplication\UVS.Application\UVS.Application.csproj" />
+    <ProjectReference Include="..\..\UVSContracts\UVS.Contracts\UVS.Contracts.csproj" />
+  </ItemGroup>
+	
+</Project>

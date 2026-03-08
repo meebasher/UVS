@@ -1,0 +1,9 @@
+<Solution>
+  <Project Path="UVSApplication/UVS.Application/UVS.Application.csproj" />
+  <Project Path="UVSConsole/UVS.Console/UVS.Console.csproj" Id="f261018f-24ce-48ab-9fdb-661cf3512feb" />
+  <Project Path="UVSContracts/UVS.Contracts/UVS.Contracts.csproj" />
+  <Project Path="UVSDomain/UVS.Domain/UVS.Domain.csproj" />
+  <Project Path="UVSInfraData/UVS.Infra.Data/UVS.Infra.Data.csproj" />
+  <Project Path="UVSIoC/UVS.IoC/UVS.IoC.csproj" />
+  <Project Path="UVSTests/UVS.Tests/UVS.Tests.csproj" Id="700e647c-5d7f-4ac7-93d4-a0caa00d3173" />
+</Solution>
